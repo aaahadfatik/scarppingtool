@@ -218,10 +218,12 @@ def main(designation, country, google_sheet_url, username, password):
 
 # Run main
 if __name__ == "__main__":
-    SHEET_URL = "https://docs.google.com/spreadsheets/d/1oU1PLXu0JLtBXKioboPW5QkOhRSV4FSzSzOyyQ3BLP8/edit"
-    USERNAME = "abdulahadfatik007@gmail.com"
-    PASSWORD = "17Arid1602$"
-    DESIGNATION = "CEO"
-    COUNTRY = "Muscat"
+    SHEET_URL = ""
+    # linkedIn credentials
+    USERNAME = ""
+    PASSWORD = ""
+    # linkedIn search
+    DESIGNATION = ""
+    COUNTRY = ""
 
     main(DESIGNATION, COUNTRY, SHEET_URL, USERNAME, PASSWORD)
